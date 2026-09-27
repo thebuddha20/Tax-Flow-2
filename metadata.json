@@ -1,0 +1,6 @@
+{
+  "name": "TaxFlow — CA Bank Statement to Tally Automation",
+  "description": "Automated bank statement processing, intelligent ledger classification, CA review, and direct Tally Prime voucher integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

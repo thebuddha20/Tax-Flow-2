@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaxFlow — CA Bank Statement to Tally Automation</title>
+    <meta name="description" content="Automated bank statement processing, intelligent ledger classification, CA review, and direct Tally Prime voucher integration." />
+    <meta property="og:title" content="TaxFlow — CA Bank Statement to Tally Automation" />
+    <meta property="og:description" content="Automated bank statement processing, intelligent ledger classification, CA review, and direct Tally Prime voucher integration." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      /* Fix for "Cannot set property fetch of #<Window> which has only a getter" */
+      (function() {
+        try {
+          var originalFetch = window.fetch ? window.fetch.bind(window) : null;
+          var _fetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return _fetch;
+            },
+            set: function(fn) {
+              _fetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // pass
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-sans selection:bg-indigo-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
